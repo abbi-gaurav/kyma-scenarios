@@ -70,3 +70,16 @@ Kyma apigee integration
   * token url of the form `https://{your environment}.apigee.net/oauth/client_credential/accesstoken`
   ![Management Plane create application](assets/management-plane-create-application.png)
   ![Management Plance api crdentials](assets/mp-configure-api-credentials.png)
+
+## Calling apigee API
+
+Follow the standard steps to consume an API from a namepace.
+
+* Bind the application with the namespace.
+![bind application](./assets/bind-application.png)
+* API will be available in servcie catalog
+![api in catalog](./assets/api-in-service-catalog.png)
+* Add it once
+![add-api-once](./assets/add-once.png)
+* Create a lambda to make API call
+![lambda](./assets/lambda.png)
